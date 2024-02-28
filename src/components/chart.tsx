@@ -19,7 +19,7 @@ export default function Chart({
   minValue,
 }: Props) {
   return (
-    <div className="flex flex-col h-full md:w-full items-center justify-center">
+    <div className="flex flex-col h-full md:w-full shrink min-w-0 items-center justify-center">
       {!chartConfig ? (
         <ChartSkeleton />
       ) : isEmpty(chartConfig) ? (

@@ -36,10 +36,10 @@ export default function Home() {
 
   // MAIN RENDER
   return (
-    <main className="md:flex md:h-screen w-screen text-zinc-900">
+    <main className="md:flex md:h-screen shrink md:w-screen text-zinc-900 overflow-x-hidden">
       <div className="md:flex w-full space-y-20 md:space-y-0 p-2 md:p-20 gap-4">
         {/* LEFT CONTENT */}
-        <div className="md:w-[40%]  flex flex-col justify-between gap-8 md:gap-0">
+        <div className="md:w-[40%]  flex flex-col shrink-0 justify-between gap-8 md:gap-0">
           <div className="space-y-2 md:space-y-4">
             <div>
               <div className="font-bold text-xl md:text-2xl">
