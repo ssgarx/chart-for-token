@@ -18,6 +18,13 @@ export const ContentConfig = [
     ],
   },
   {
+    title: "Performance",
+    items: [
+      "Perfect Lighthouse performance score on Desktop",
+      "Perfect Lighthouse performance score on Mobile",
+    ],
+  },
+  {
     title: "If no time constraint",
     items: [
       "Root layer custom theme",
